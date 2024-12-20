@@ -1,5 +1,3 @@
-# Data Engineering Course Notes
-
 ## Day 1: Data Modeling - Complex Data Types
 
 ### Data Structures
