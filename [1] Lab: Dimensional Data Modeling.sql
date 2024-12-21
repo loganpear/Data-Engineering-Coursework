@@ -1,3 +1,8 @@
+-- Lab 1: Tracking Player Stats with Latest Snapshot Model  
+  
+-- Models player data with season stats and classifications, updating to the latest values
+-- Focuses on appending stats and maintaining current state without preserving historical changes
+
 select * from player_seasons;
 
 create type scoring_class as enum ('star', 'good', 'average', 'bad');
@@ -25,6 +30,7 @@ CREATE TABLE players (
     scoring_class scoring_class,
     years_since_last_season integer,
     current_season integer,
+    is_active boolean,  -- whether the player is active in the current season
     PRIMARY KEY (player_name, current_season)
 );
 
@@ -33,11 +39,11 @@ select * from players;
 insert into players
 with yesterday as (
     select * from players
-    where current_season = 2000
+    where current_season = 2022
 ),
     today as (
         select * from player_seasons
-        where season = 2001
+        where season = 2023
     )
 select
     coalesce(t.player_name, y.player_name) as playername,
@@ -80,15 +86,22 @@ select
         else y.years_since_last_season + 1
     end as years_since_last_season,
 
-    coalesce(t.season, y.current_season + 1) as current_season
+    coalesce(t.season, y.current_season + 1) as current_season,
     -- the coalesce above works functionally as the case statement below
     /*case when t.season is not null
         then t.season
         else y.current_season + 1
     end*/
 
+    case
+        when t.season is null then False
+        else True
+    end as is_active
+
 from today t full outer join yesterday y
     on t.player_name = y.player_name;
+
+select * from players;
 
 -- Analysis of how much each player has improved since their debut year
 -- this is a very fast query since there's no group by
