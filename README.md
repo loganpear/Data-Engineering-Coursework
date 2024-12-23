@@ -1,6 +1,5 @@
 # Data Engineering Coursework
-I'm taking this bootcamp on top of my Data Science coursework at Michigan State University to deepen my understanding of data engineering concepts and gain hands-on experience with practical tools and techniques.
-
+I'm taking this bootcamp on top of my Data Science coursework at Michigan State University as I'm eager to gain experience impletmenting the foundational skills I've learned in college so far into actual data egineering work.
 ### What You'll Find Here:  
 - **Lecture Notes:** Key takeaways and concepts from each lecture.  
 - **Lab Code:** Practical exercises and solutions for the labs, applying real-world data engineering techniques.  
