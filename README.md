@@ -1,9 +1,5 @@
-# Data Engineering Bootcamp Notes, Labs, & Projects  
-
-Welcome to my Data Engineering Bootcamp repository! This repository contains my notes from lectures, code from labs, and course projects led by [Zach Wilson](https://www.linkedin.com/in/eczachly/) as part of his free Data Engineering Bootcamp.  
-
-## Purpose:
-I'm taking this bootcamp on top of my Data Science coursework at Michigan State University to deepen my understanding of data engineering concepts and gain hands-on experience with practical tools and techniques. This bootcamp builds on the technical skills I’ve already learned and helps ensure that I’m well-prepared for my first professional data engineering role.  
+# Data Engineering Coursework
+I'm taking this bootcamp on top of my Data Science coursework at Michigan State University to deepen my understanding of data engineering concepts and gain hands-on experience with practical tools and techniques.
 
 ### What You'll Find Here:  
 - **Lecture Notes:** Key takeaways and concepts from each lecture.  
@@ -18,4 +14,4 @@ I'm taking this bootcamp on top of my Data Science coursework at Michigan State 
 
 ### Bootcamp Information  
 For more details about the bootcamp, visit the [official repository](https://github.com/DataExpert-io/data-engineer-handbook/tree/main/bootcamp).  
-
+Thank you [Zach Wilson](https://www.linkedin.com/in/eczachly/) for putting out this course for free.
