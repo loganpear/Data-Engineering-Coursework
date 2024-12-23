@@ -2,7 +2,7 @@
 
 Welcome to my Data Engineering Bootcamp repository! This repository contains my notes from lectures, code from labs, and course projects led by [Zach Wilson](https://www.linkedin.com/in/eczachly/) as part of his free Data Engineering Bootcamp.  
 
-## About This Repository  
+## Purpose:
 I'm taking this bootcamp on top of my Data Science coursework at Michigan State University to deepen my understanding of data engineering concepts and gain hands-on experience with practical tools and techniques. This bootcamp builds on the technical skills I’ve already learned and helps ensure that I’m well-prepared for my first professional data engineering role.  
 
 ### What You'll Find Here:  
