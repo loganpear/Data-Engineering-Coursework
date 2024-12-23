@@ -11,6 +11,6 @@ I'm taking this bootcamp on top of my Data Science coursework at Michigan State 
 - **PostgreSQL:** A relational database management system used to design schemas, store data, and implement data pipelines.  
 
 
-### Bootcamp Information  
+### Bootcamp Information:
 For more details about the bootcamp, visit the [official repository](https://github.com/DataExpert-io/data-engineer-handbook/tree/main/bootcamp).  
 Thank you [Zach Wilson](https://www.linkedin.com/in/eczachly/) for putting out this course for free.
